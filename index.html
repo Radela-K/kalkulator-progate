@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Progate</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./stylesheet.css" />
+
+    <!-- font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="calculator card">
+        <!-- awal screen clculator -->
+        <div class="atas-cal">
+          <div class="merk">
+            <h1>Progate</h1>
+            <h5>Radela K. Wardani -- Kelas F</h5>
+          </div>
+          <div class="cell">
+            <div class="col-cell"></div>
+            <div class="col-cell"></div>
+            <div class="col-cell"></div>
+            <div class="col-cell"></div>
+          </div>
+        </div>
+
+        <div class="simbol-cal">Kalkulator-progate</div>
+        <input type="text" class="calculator-screen" value="0" disabled />
+        <!-- akhir screen clculator -->
+
+        <!-- awal calculator-keys -->
+        <div class="calculator-keys">
+          <div class="row">
+            <button class="all-clear">AC</button>
+            <button class="precentage" value="%">%</button>
+            <button class="operator" value="/">&divide;</button>
+          </div>
+
+          <div class="row">
+            <button class="number" value="7">7</button>
+            <button class="number" value="8">8</button>
+            <button class="number" value="9">9</button>
+            <button class="operator" value="*">&times;</button>
+          </div>
+
+          <div class="row">
+            <button class="number" value="4">4</button>
+            <button class="number" value="5">5</button>
+            <button class="number" value="6">6</button>
+            <button class="operator" value="-">-</button>
+          </div>
+
+          <div class="row">
+            <button class="number" value="1">1</button>
+            <button class="number" value="2">2</button>
+            <button class="number" value="3">3</button>
+            <button class="operator" value="+">+</button>
+          </div>
+
+          <div class="row">
+            <button class="number zero-btn" value="0">0</button>
+            <button class="decimal" value=".">.</button>
+            <button class="equal-sign">=</button>
+          </div>
+        </div>
+        <!-- akhir calculator-keys -->
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
