@@ -1,3 +1,3 @@
 # kalkulator-radela
 
-proyek kalkulator progate
+proyek kalkulator untuk proyek progate
